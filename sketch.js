@@ -9,7 +9,9 @@ function setup() {
   s4 = createSprite(350, 150, 30, 30);
   
   sprites = [s1,s2,s3,s4]; 
-  
+  for(var i=0;i<sprites.length;i++){
+  console.log(sprites[i].position.x);
+  } 
  
 }
 function draw() {
